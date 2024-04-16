@@ -2,7 +2,7 @@
 
 // Intentamos establecer una conexión a la base de datos utilizando la función mysqli_connect
 // Los parámetros son: servidor ('localhost'), nombre de usuario ('root'), contraseña (''), y nombre de la base de datos ('peluqueria')
-$con = mysqli_connect('localhost', 'root', '', 'juegoa');
+$con = mysqli_connect('localhost', 'root', '2004', 'juegoa');
 
 // Verificamos si la conexión se estableció con éxito
 if (!$con) {
